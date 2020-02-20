@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+*{
+    
+    font-family: 'Poppins', sans-serif;
+    
+}
+.img-layer{
+    width: 60%;
+    height: 110%;
+    position: absolute;
+    top: 0; left: 0;
+    background-image: url("../image/12.png");
+    background-size:cover;
+    z-index: 0;
+
+}
+.home-content{
+    margin-top: 30%;
+    margin-left: 8%;
+}
+.home-content h2{
+    font-weight: 700;
+    font-size: 40px;
+}
+.home-content a{
+    text-decoration: none !important;
+}
+.home-content a:hover{
+    color: white;
+}
+.btn-download{
+    background-color: black;
+    padding: 15px;
+    border-radius: 10px;
+    display: block;
+    margin-top: 35px;
+    width: 125px;
+    color: yellow;
+    
+}
+.logo{
+    width: 60px;
+    height: 50px;
+}
+.side-header{
+    position: relative;
+}
+.navbar{
+    position: absolute;
+    top: -10%;
+    z-index: 2;
+   
+}
+.nav-link{
+    color: black;
+}
